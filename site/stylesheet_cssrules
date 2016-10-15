@@ -2,7 +2,7 @@
 
 	.heading {color: blue; text-align: center;}
 
-    .selectors {margin-left: 550px; width: 200px; color: green; font: bold; text-align: left; font-weight: bold; border-style: solid; background-color: yellow; opacity: 0.5}
+    .selectors {margin-left: 550px; width: 150px; color: green; font: bold; text-align: left; font-weight: bold; border-style: solid; background-color: yellow; opacity: 0.5}
 
     #table {margin-left: 400px; margin-top: 25px; width: 500px; text-align: left; background-color: yellow; 
     	    color: red; opacity: 0.5; font-weight:bold; 
