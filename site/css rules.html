@@ -2,46 +2,59 @@
 <html>
 <head>
 <meta charset="utf-8">
-<style type="text/css">
-	.heading {color: blue; text-align: center;}
-     ul {color: red; width: 200px; text-align: left;
-     	background-color: black; opacity: 0.6}
-    
-</style>
 
-	<title>CSS Rules</title>
+<link rel="stylesheet" type="text/css" href="stylesheet_cssrules">
+
+<title>CSS Rules</title>
 </head>
 <body>
-<h1 class="heading">How Can You Code Cascading Style Sheet Rules?</h1>
-<div><p>CSS rules is presentation layer. It helps browser present the HTML content in beautiful manner. There're numbers of selectors, namely...</p>
-<ul>
+<h1 class="heading">How Can You Code Cascading Style Sheet?</h1>
+<div>
+<p>CSS rules is presentation layer. It helps browser present the HTML content in beautiful manner. There're principally 3 types of selectors. We're know going to discuss those Selectors in detail.<br>
+The Selectors are-
+</p>
+<ul class="selectors">
 	<li>Element Selector</li>
 	<li>Class Selector</li>
 	<li>Id Selector</li>
 </ul>
 </div>
 <div><h2 class="heading">Element Selector</h2>
-<p>Element Selectors modify all the content with target html element. Foe example, <b>p {}</b>- is a element selector and will modify all the content within &ltp&gt html element.</p>
+<p>Element Selectors modify all the content with target html element.
+<br>Example1:<br>
+The css code <b>p {...}</b>- is a element selector and will modify all the content within &lt;p&gt; html element.</p>
 </div>
 <div><h2 class="heading">Class Selector</h2>
-	<p>This selector will modify all the content within the class having perticular attribute as specified in the css rules. For example, .<b>.heading {}</b>- is a class selector which affect all the content within the <b>class= heading</b></p>
+	<p>This selector will modify all the content within the class having perticular attribute as specified in the css rules.<br>
+	 Example2:<br> 
+	 <b>.heading {...}</b>- is a class selector which affect all the content within the <b>class= heading</b></p>
 </div>
 <div><h2 class="heading">Id Selector</h2>
-<p>This selector will affect the content which is within that perticular id element as specified in css rule. Let's take an example...
-<b>#main</b> will affect the conent only within....
-<b>&ltspan id="main"&gt</b>
+<p>This selector will affect the content which is within that perticular id element as specified in css rule. Let's take an example;
+<br>
+Example 3:<br>
+<b>#table {...}</b> will affect the content only within <b>&lt;span id="table"&gt;</b>
 </p>
-<p>As you can see that id selector is most specific amongst all as there'll be only one id associated with the entire content.</p>
-<section>Now you can combine these selectors to produce rich results.
-</section>
-<div><h2 class="heading">Combination of selectors</h2>
-<p>Following combination will produce the result as shown in the table:
-
-	
-</p>
-	
-	
 </div>
+<p>As you can see that "id selector" is most specific amongst all as there'll be only one id associated with the entire content.<br>
+Now you can combine these selectors to produce rich results.</p>
+
+<div><h2 class="heading">Combination of Selectors</h2>
+Following combinations will produce the result as shown in the table:
+<br>
+</div>
+<div id="table">
+<ol>
+<li>&nbsp;p.heading{..}---->All content within element p &amp; class=heading.<br></li>
+<li>&nbsp;p .heading{..}-->Separately within element p & class= heading. (notice for space between p &amp; .heading)<br></li>
+<li>&nbsp;div > p{...}------->	This combination is known as <b>child combination.</b> Here content which is within &lt;p&gt;...&lt;p&gt; which is directly under &lt;div&gt; tag will be modified.<br></li>
+<li>&nbsp;div p{....}------->This is known as <b>Decendent Combination.</b> Here content which is within &lt;p&gt;...&lt;p&gt; which is also under the fold of &lt;div&gt; tag will be modified. Direct decendency isn't factor here.</li>
+</ol></div>
+<div>
+<p>This is the knowledge I've acquired in the week 2 of the course.</p>
+</div>
+<hr>
+&copy;Pinaki Sengupta, 2016.
 
 </body>
 </html>
