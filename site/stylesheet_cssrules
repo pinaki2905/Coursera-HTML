@@ -1,10 +1,24 @@
+.heading {color: blue; text-align: center;}
 
-
-	.heading {color: blue; text-align: center;}
-
-    .selectors {margin-left: 550px; width: 150px; color: green; font: bold; text-align: left; font-weight: bold; border-style: solid; background-color: yellow; opacity: 0.5}
-
-    #table {margin-left: 400px; margin-top: 25px; width: 500px; text-align: left; background-color: yellow; 
+    .selectors {list-style: none; }
+   
+    #table {margin-left: 400px; margin-top: 25px; width: 500px; 
+    text-align: left; background-color: yellow; 
     	    color: red; opacity: 0.5; font-weight:bold; 
     	    border-style: solid}
 
+    .pseudo { list-style: none;}
+
+    a:link, a:visited {
+    	text-decoration: none; background-color: green; border: 1px solid yellow; display: block; width: 200px; text-align: center; color: black; margin-left: 500px; font-weight: bold;}
+
+    a:hover, a:visited {background-color: red;}
+
+    .selectors li:nth-child(odd) 
+    {margin-left: 500px; background-color: green; display: box; width: 200px; text-align: center; border: solid 1px yellow; font-weight: bold; font-family: verdana;}
+
+    .selectors li:nth-child(even) 
+
+    {margin-left: 500px; background-color: red; display: box; width: 200px; text-align: center; border: solid 1px yellow; font-weight: bold;}
+
+	
