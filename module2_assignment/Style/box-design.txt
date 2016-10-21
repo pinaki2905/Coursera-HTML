@@ -1,0 +1,55 @@
+
+ /*Base Style*/
+
+    * {box-sizing: border-box; padding: 0px; font-family: Helvetica;}
+    
+    .container {width: 100%; }
+
+    section{float: left; margin-right: 1%; margin-left: 2%; margin-top: 1.5%; margin-bottom: 2%;  border: 2.5px solid black; overflow: auto; height: 200px;}
+
+    p { clear: both; font-size: 1em;}
+
+    h1 {text-align: center; display: block; border: solid black 4px; width: 100%; margin-top: 20px; background-color: lightgrey;font-size: 1.75em; }
+
+    h2 { text-align: center; display: block; background-color: lightgreen; border: solid 1px red; width: 80px; float: right; margin-top: 0px; margin-right: 0px; font-size: 1.25em;}
+
+    aside{clear: both; padding: 10px; font-size: : 1em;}
+
+    img{padding-top: 10px; padding-left: 10px; width: 60px; 
+        height: 60px;}
+
+
+               /* For Mobile Phones: */
+
+@media screen and (max-width: 767px) {  
+
+   .col-s-1{ background-color: olive; width: 97%}
+
+   .col-s-2{ background-color: cyan; width: 97%;}
+
+   .col-s-3{ background-color: mediumvioletred; width: 97%;}
+   
+}
+
+                 /* For Tablet Version*/
+
+@media screen and  (min-width: 768px) and (max-width: 991px){
+       
+    .col-m1-3 {background-color: olive; float: left; width: 47%;}
+
+    .col-m2-3 {background-color: cyan; float: left; width: 46%; }
+
+    .col-m-12 { background-color: mediumvioletred; float: left; width: 95%; }
+
+                }
+
+                  /* For Desktop Version*/
+
+ @media screen and (min-width: 992px){
+
+    .col-l1-3{ background-color: olive; width: 31%;}
+
+    .col-l2-3{ background-color: cyan; width: 30%;}
+
+    .col-l3-3{ background-color: mediumvioletred; width: 30%;}
+}
